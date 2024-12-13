@@ -1,0 +1,166 @@
+
+body{ 
+    margin: 0;
+    font-family:'Roboto',sans-serif;
+}
+.header{
+    background-color: rgb(66, 27, 98);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10px;
+}
+.logo{
+    width: 100px;
+}
+.btn{
+    background-color:rgb(222, 185, 222);
+    border-radius: 15px;
+    padding: 5px 15px;
+    color:rgb(64, 32, 94);
+    border: none;
+}
+.mmn{
+    background-color:rgb(64, 32, 94);
+    border-radius: 15px;
+    padding: 5px 15px;
+    color:white;
+    border: none; 
+}
+.header-links a{
+    color: white;
+    padding:0 15px;
+    text-decoration: none;
+    border-radius: 15px;
+}
+.header-links a:hover{
+    color:rgb(67, 30, 86);
+    background-color: rgb(149, 124, 172);
+}
+.header-links button{
+    background-color:rgb(230, 207, 244);
+    color:rgb(64, 32, 94);
+    border: 0ch;
+    border-radius: 15px;
+
+}
+.header-links button:hover{
+   color: darkorchid; 
+}
+.landing-page {
+    background-color:rgb(66, 27, 98);
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 50px;
+    color: #ffffff;
+    border-radius: 0 0 50px 50px;
+  }
+  
+  .landing-page-left-section {
+    width: 500px;
+  }
+  
+  .landing-page-search input {
+    border-radius: 50px;
+    border: none;
+    outline: none;
+    height: 30px;
+    padding: 0 10px;
+  }
+  
+  .landing-page-search button {
+    position:absolute;
+    left: 200px;
+    height: 30px;
+    border-radius: 20px;
+    width:px;
+    background-color:rgb(230, 207, 244);
+    color:rgb(64, 32, 94);
+    border: 0ch;
+    border-radius: 15px;
+  }
+  .landing-page-image img{
+    display: flex;
+    border-radius: 20px;
+    width: 250px;
+  }
+.trending-container{
+    padding: 25px 50px;
+}
+.trending-container span{
+    color: red;
+    text-transform: uppercase;
+    font-size:small;
+}
+.trending-header{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.trending-header h2{
+    margin-top: 0;
+}
+.trending-cards{
+    display: flex;
+    gap: 15px;
+}
+.card{
+    width:300px ;
+    background-color:rgb(230, 207, 244) ;
+    border-radius: 25px;
+
+}
+.card-info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:5px 25px ;
+}
+.card .game-iamge{
+    border-radius: 25px 25px 0 0;
+}
+.online-shopping img{
+    width: 50px;
+
+}
+.cardImg img {
+    border-radius: 20px;
+}
+
+.mostCards .cardInfo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.mostCards .cardInfo .genre {
+    margin-bottom: 0;
+    color: gray;
+}
+
+.mostContainer {
+    background-color: #EEEEEE;
+    margin-top: 200px;
+    padding: 50px;
+    border-radius: 100px;
+}
+.mostcard{
+    background-color: rgb(222, 185, 222);
+    margin: 200;
+    border-radius: 25px;
+
+}
+.mostContainer .mostPlayed, .category {
+    max-width: 1300px;
+    margin: auto;
+}
+.mostCards{
+    display: flex;
+    gap: 15px;
+}
+.mostHeader{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
