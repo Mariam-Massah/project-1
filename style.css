@@ -59,6 +59,7 @@ body{
   
   .landing-page-left-section {
     width: 500px;
+    padding: 70px 0 10PX 70PX;  
   }
   
   .landing-page-search input {
@@ -71,7 +72,7 @@ body{
   
   .landing-page-search button {
     position:absolute;
-    left: 200px;
+    left: 250px;
     height: 30px;
     border-radius: 20px;
     width:px;
@@ -80,10 +81,11 @@ body{
     border: 0ch;
     border-radius: 15px;
   }
-  .landing-page-image img{
+  .landing-page-image {
     display: flex;
     border-radius: 20px;
     width: 250px;
+    transform: translateX(900px);  
   }
 .trending-container{
     padding: 25px 50px;
